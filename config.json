@@ -1,0 +1,43 @@
+{
+    "mode":"cos",
+    "mport":8201,
+    "mhost":"101.132.116.211",
+    "domin":"file.mcfhq.com/",
+    "db":{
+        "host": "101.132.116.211",
+        "user": "root",
+        "password": "aptx4869",
+        "database": "kindle",
+        "port":8101
+    },
+    "mail":{
+        "outlook": {
+            "host": "smtp-mail.outlook.com",
+            "port": 587,
+            "secure": false,
+            "auth": {
+                "user": "lancelotnemoj@Outlook.com",
+                "pass": "lanc374869"
+            }
+        },
+        "netcast":{
+            "service": "smtp.163.com",
+            "host": "smtp.163.com",
+            "secureConnection": true,
+            "port": 465,
+            "auth": {
+                "user": "lancelotnemoj@163.com",
+                "pass": "lanc374869"
+            }
+        }
+    },
+    "cos":{
+        "domin":"https://kindle-1253417793.cos.ap-shanghai.myqcloud.com",
+        "SecretId":"AKIDf7JFvNQZIm0ziB8L2TgeMo2HH1VkLY7S",
+        "SecretKey":"FG3btviKgneFbhX6RhkZ9TXMvFJ7g081",
+        "setting":{
+            "Bucket": "kindle-1253417793",
+            "Region": "ap-shanghai"
+        }
+    }
+}
